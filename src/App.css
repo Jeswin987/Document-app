@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+.main-container{
+  background-image: url(https://images.unsplash.com/photo-1519972064555-542444e71b54?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-header {
+  font-size: 24px;
+  color: #fdfdfd;
+  margin-bottom: 18px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  padding: 10px;
+  flex-grow: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.action-button {
+  padding: 10px;
+  background-color: #4caf50;
   color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.document-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.document-title {
+  font-size: 18px;
+  color: #333;
+}
+.title-span:hover{
+  color: #176B87;
+}
+
+.document-description {
+  margin-top: 10px;
+  color: #666;
+}
+
+.delete-button,
+.action-button {
+  margin-left: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.delete-button:hover{
+  background-color:#A9A9A9;
+}
+
+.update-input {
+  margin-right: 10px;
+}
+.foot{
+margin-top: 0px;
+height: 50vh;
+}
+.delete{
+  margin-left: 280px;
+}
+.delete:hover{
+  background-color: black;
+}
+.JW{
+  background-image: url(https://images.unsplash.com/photo-1519972064555-542444e71b54?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+@media (max-width: 600px) {
 }

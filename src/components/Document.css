@@ -1,0 +1,24 @@
+.ql-editor{
+    height: 400px;
+
+  }
+
+  .ql-editor strong{
+    font-weight:bold;
+}
+.ql-container{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+
+}
+.ql-toolbar{
+  width: 60%;
+  margin-left: 15%;
+}
+@media (max-width:600px){
+  
+}
+
